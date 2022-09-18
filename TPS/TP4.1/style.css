@@ -1,0 +1,64 @@
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #384047;
+    text-align: center;
+}
+
+form {
+    margin: 10px auto;
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+
+table {
+    width: 45%;
+    max-width: 50%;
+    background: #f4f7f8;
+}
+
+table, th, td {
+    text-align: center;
+    border: 1px solid gray;
+}
+
+th, td {
+    padding: 7px;
+  }
+
+button {
+    padding: 10px;
+    color: #FFF;
+    background-color: #4bc970;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 30%;
+    border: 1px solid #3ac162;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  }
+
+  button:hover{
+      background-color: #48a564;
+  }
+
+  textarea{
+      margin-top: 20px;
+      min-width: 250px;
+      min-height: 100px;
+      max-height: 200px;
+      resize: vertical;
+  }
+
+  .text-result-fmt{
+      font-size: 20px;
+      margin: 20px 0px;
+      color: rgb(199, 62, 13);
+  }
