@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>First Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+      <form action="action.php" method="post">
+      
+        <h1>Contact Form</h1>
+        <!-- Informacion primaria -->
+        <fieldset>
+          <legend><span class="number">1</span>Your basic info</legend>
+          <label for="name">Name </label>
+          <input type="text" id="name" name="user_name" required>
+          
+          <label for="mail">Email </label>
+          <input type="email" id="mail" name="user_email" required>
+          
+          <label for="password">Password</label>
+          <input type="password" id="password" name="user_password" required>
+          
+          <label>Bithday</label>
+          <input type="date" id="birthday" name="user_birth_day" required>
+
+          <label>Sex: </label>
+          <input type="radio" id="male" value="male" name="user_sex">
+          <label for="male" >Male</label>
+          <input type="radio" id="female" value="female" name="user_sex">
+          <label for="female">Female</label>
+        </fieldset>
+        
+        <fieldset>
+          <legend><span class="number">2</span>Your profile</legend>
+          <!-- Acerca de ti -->
+          <label for="bio">About you</label>
+          <textarea id="bio" name="user_bio"></textarea>
+
+          <!-- Rol -->
+          <label for="role">Role</label>
+          <select id="role" name="user_role">
+              <optgroup label="Web">
+                  <option value="frontend_developer">Front-End Developer</option>
+                  <option value="backend_developer">Back-End Developer</option>
+                  <option value="python_developer">Python Developer</option>
+                  <option value="qa_automation">QA Automation</option>
+                  <option value="web_designer">Web Designer</option>
+                  <option value="php_developer">PHP Developer</option>
+              </optgroup>
+              <optgroup label="Mobile">
+                  <option value="Android_developer">Androild Developer</option>
+                  <option value="iOS_developer">iOS Developer</option>
+                  <option value="mobile_designer">Mobile Designer</option>
+              </optgroup>
+          </select>
+          <!-- Intereses -->
+          <label>Interests</label><br>
+          <input type="checkbox" id="database" name="interest_database" value="DataBase">
+          <label class="light" for="database" >Data Base</label>
+
+          <input type="checkbox" id="design" name="interest_design">
+          <label class="light" for="design">Design</label>
+
+          <input type="checkbox" id="business" name="interest_business">
+          <label class="light" for="business">Business</label>
+          
+          <input type="checkbox" id="unittest" name="interest_unitTest">
+          <label class="light" for="unittest">Unit Test</label><br>
+
+          <input type="checkbox" id="cloud_development" name="interest_cloudDevelopment">
+          <label class="light" for="cloud_development">Cloud Development</label>
+
+          <input type="checkbox" id="development" name="interest_webDevelopment">
+          <label class="light" for="development">Web Development</label>
+        </fieldset>
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+      </form>
+      
+    </body>
+</html>
+</html>
