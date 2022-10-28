@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "username": "admin",
+        "password": "admin",
+        "userTypeId": 1
+    },
+    {
+        "id": 2,
+        "username": "keeper",
+        "password": "keeper",
+        "userTypeId": 3
+    },
+    {
+        "id": 3,
+        "username": "owner",
+        "password": "owner",
+        "userTypeId": 2
+    },
+    {
+        "id": 4,
+        "username": "sad",
+        "password": "sad",
+        "userTypeId": 2
+    },
+    {
+        "id": 5,
+        "username": "nico",
+        "password": "nico",
+        "userTypeId": 2
+    },
+    {
+        "id": 6,
+        "username": "keep",
+        "password": "keep",
+        "userTypeId": 3
+    }
+]
